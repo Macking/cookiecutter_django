@@ -96,4 +96,8 @@ See detailed `cookiecutter-django Docker documentation`_.
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
 
 
+COMMENTS:
 
+1. For API test just run "docker-compose -f local.yml run django python manage.py test api"
+
+2. After login, navigate to "My Profile" and have a button name "Echo", it will echo "hello, xxx"(your name)
